@@ -1,0 +1,189 @@
+body {
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    font-size: 1rem;
+}
+.alert {
+    display: block;
+}
+.card {
+    position: relative;
+    width: 25rem;
+    height: 30rem;
+    color: #191d1d;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background: linear-gradient(45deg, #8f71ff, #899292);
+}
+
+.fa-wind {
+    position: absolute;
+    left: 2rem;
+    bottom: 11rem;
+    font-size: 2rem;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+.hd1 {
+    position: absolute;
+    font-size: 1.3rem;
+    left: 6rem;
+    bottom: 11.5rem;
+}
+
+.fa-smog {
+    position: absolute;
+    right: 7rem;
+    bottom: 11rem;
+    font-size: 2rem;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+.hd2 {
+    position: absolute;
+    font-size: 1.3rem;
+    right: 3rem;
+    bottom: 11.5rem;
+}
+
+.fa-hum {
+    position: absolute;
+    left: 1rem;
+    bottom: 6rem;
+    font-size: 1rem;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.hd3 {
+    position: absolute;
+    font-size: .9rem;
+    left: 2.9rem;
+    bottom: 5rem;
+}
+
+.fa-mph {
+    position: absolute;
+    left: 9.6rem;
+    bottom: 7rem;
+    font-size: 1rem;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.hd4 {
+    position: absolute;
+    font-size: .9rem;
+    left: 10rem;
+    bottom: 6rem;
+}
+
+.fa-country {
+    position: absolute;
+    right: 2rem;
+    bottom: 6rem;
+    font-size: 1rem;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.hd5 {
+    position: absolute;
+    font-size: .9rem;
+    right: 3rem;
+    bottom: 5rem;
+}
+
+.fa-tz {
+    position: absolute;
+    right: 10rem;
+    bottom: 3.5rem;
+    font-size: .9rem;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.hd6 {
+    position: absolute;
+    font-size: 1rem;
+    right: 10rem;
+    bottom: 2.3rem;
+}
+
+.dark-mode {
+    background-color: rgb(25, 22, 22);
+    color: rgb(157, 157, 157);
+}
+
+.card_dark-mode {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-color: aliceblue;
+    background-color: rgb(25, 22, 22);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.acc_dark-mode {
+    border-color: aliceblue;
+    background-color: rgb(25, 22, 22);
+    color: rgb(255, 255, 255);
+}
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 368px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
